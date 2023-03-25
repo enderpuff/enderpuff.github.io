@@ -12,9 +12,7 @@ p {
     color: white; 
 }
 
-a {
-    color: hotpink;
-}
-a:visited {
-    color: mediumslateblue;
-}
+a {color: hotpink;}
+a:visited {color: hotpink;}
+a:hover {color: red;}
+a:active {color: slateblue;}
