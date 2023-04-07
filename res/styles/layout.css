@@ -2,14 +2,14 @@ body {
     display: flex;
     background-color: black;
 }
-.page{
+#page{
     flex-direction: column;
 
     max-width: 60ch;
     width: 50ch;
     margin: 0 auto;
 }
-.main {
+#mainArticle {
     border: 2px solid white;
     border-radius: 1em;
 }
