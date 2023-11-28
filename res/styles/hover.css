@@ -1,6 +1,4 @@
 .grow {
-    color:transparent;
-    text-decoration: none;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
