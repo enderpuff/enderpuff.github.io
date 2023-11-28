@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[<!DOCTYPE html>
 <html lang="en-US">
 <head>
     <!--Mobile compability i think? Idk, i got this from stack overflow, lol-->
@@ -25,21 +25,46 @@
 
     <link rel="stylesheet" href="./res/styles/defaults.css">
     <link rel="stylesheet" href="./res/styles/layout.css">
+    <link rel="stylesheet" href="res/styles/hover.css">
+
+    <!--<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer="defer"></script>
+    <script src="./res/data/langs.js" defer="defer"></script>
+    <script src="./res/js/jquery/jquery.translate.js" defer="defer"></script>
+    <script src="./res/js/translate.js" defer="defer"></script>-->
 
     <title>Hello, World!</title>
 </head>
 <body>
     <div id="page">
         <header style="text-align: center;">
-            <h1>Hi, I'm Chloe :D</h1>
-            <h3>A.K.A enderpuff</h3>
+            <h1 class="trn">Hi, I'm Chloe :D</h1>
+            <h3 class="trn">A.K.A enderpuff</h3>
         </header>
         <article id="mainArticle" style="text-align: center;">
-            <p>
+            <p class="trn">
                 I'm an enthusiast game developer and programmer. <br>
                 Currently learning web development, <a href="https://www.rust-lang.org">Rust</a> and <a href="https://www.w3schools.com/cpp">C++</a>
             </p>
         </article>
+        <footer>
+            
+            <a href="https://www.youtube.com/@enderpuff.">
+                <img class="grow" src="res/img/youtube.svg" style="width:48px;height:48px;position:relative;top:15px;left:20%" alt="Youtube">
+            </a>
+
+            <a href="https://tech.lgbt/@enderpuff">
+                <img class="grow" src="res/img/mastodon.svg" style="width:48px;height:48px;position:relative;top:15px;left:25%;" alt="Mastodon">
+            </a>
+
+            <a href="https://github.com/enderpuff">
+                <img class="grow" src="res/img/github.svg" style="width:48px;height:48px;position:relative;top:15px;left:30%;" alt="Youtube">
+            </a>
+
+            <a href="https://twitter.com/enderpuff">
+                <img class="grow" src="res/img/twitter.svg" style="width:48px;height:48px;position:relative;top:15px;left:35%" alt="Twitter">
+            </a>
+
+        </footer>
     </div>
 </body>
 </html>
