@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+}
+
+footer a {
+    color: transparent;
+    text-decoration: none;
+}
+
+footer img {
+    max-width: 48px;
+}

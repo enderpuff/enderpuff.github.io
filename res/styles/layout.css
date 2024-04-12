@@ -2,9 +2,9 @@ body {
     display: flex;
     background-color: black;
 }
+
 #page{
     flex-direction: column;
-
     max-width: 60ch;
     width: 50ch;
     margin: 0 auto;
