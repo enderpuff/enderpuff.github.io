@@ -1,28 +1,20 @@
 body {
     font-family: "Helvetica", "sans-serif", "serif";
 }
+
 h1, h2, h3 {
-    color: white;
+    color: #f5f5f5;
 }
+
 h3 {
     font-size: medium;
 }
 
 p {
-    color: white; 
+    color: #f5f5f5; 
 }
 
-a {color: hotpink;}
-a:visited {color: hotpink;}
-a:hover {color: deeppink;}
-a:active {color: mediumslateblue;}
-
-.unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
+a {color: #ff69b4;}
+a:visited {color: #ff69b4;}
+a:hover {color: #ff1491;}
+a:active {color: #7c68ee;}
