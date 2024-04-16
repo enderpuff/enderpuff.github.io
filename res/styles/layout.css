@@ -3,14 +3,19 @@ body {
     background-color: black;
 }
 
-#page{
+#page {
     flex-direction: column;
-    max-width: 60ch;
-    width: 50ch;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #mainArticle {
     border: 2px solid white;
     border-radius: 1em;
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #page {
+        width: 100%;
+    }
 }
